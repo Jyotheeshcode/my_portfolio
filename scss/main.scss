@@ -1,17 +1,11 @@
-$primary-color: #444;
-$secondary-color:#eece1e;
-$show-home-image: true;
-$home-image: url();
-
-@mixin easeOut{
-    transition: all 1.5s ease-out;
-}
+@import 'config';
 
 *{
     box-sizing: border-box;
 }
 
 body{
+    @include background();
     background-color: $primary-color;
     color: #ffffff;
     margin: 0px;
