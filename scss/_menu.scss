@@ -98,7 +98,7 @@
         @include easeOut;
 
         &.show{
-            //slide in from rigth
+            //slide in from right
             transform: translate3d(0,0,0);
         }
 
